@@ -4,6 +4,7 @@ html {
 
 body {
     background-color: #0D0D0D;
+    margin: 0;
 }
 
 h1 {
@@ -31,7 +32,6 @@ a {
 
 .conteudo {  
     display: flex;
-    align-items: flex-start;
  } 
 
 .links {     
@@ -55,6 +55,10 @@ a {
 .tipo {     
     height: 50px; 
 } 
+
+main {
+    margin-left: 15%;
+}
 
 .desc {     
     border: 5px solid white;
@@ -81,15 +85,21 @@ figure {
 }
 
 .sidebar {
-    border: 2px solid white;
+    border-right: 2px solid white;
     box-sizing: border-box;
-    display: block;
     background-color: #5f0e15;
     width: 15%;
     text-align: left;
-    height: fit-content;
-    border-radius: 5px;
+    height: 100vh;
+    overflow-y: auto;
     padding: 30px;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.sidebar p {
+    color: white;
 }
 
 .layout {
