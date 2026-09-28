@@ -31,6 +31,7 @@ a {
 
 .conteudo {  
     display: flex;
+    align-items: flex-start;
  } 
 
 .links {     
@@ -56,6 +57,7 @@ a {
 } 
 
 .desc {     
+    border: 5px solid white;
     margin: 10px auto;     
     background-color: #5f0e15;     
     padding: 15px;     
@@ -79,6 +81,8 @@ figure {
 }
 
 .sidebar {
+    border: 2px solid white;
+    box-sizing: border-box;
     display: block;
     background-color: #5f0e15;
     width: 15%;
