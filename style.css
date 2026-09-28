@@ -1,0 +1,54 @@
+body {
+    background-color: #0b0f18;
+}
+
+h1 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.conteudo {  
+    display: flex;
+ } 
+
+.links {     
+    display: flex;     
+    flex-direction: column;
+    padding: 30px;
+} 
+
+.info {     
+    align-items: center; 
+}
+
+.info h2, h3 {     
+    color: white; 
+} 
+
+.tipo {     
+    height: 50px; 
+} 
+
+.desc {     
+    margin: 10px auto;     
+    background-color: #111827;     
+    padding: 10px;     
+    border-radius: 5px;
+    width: 50%; 
+} 
+
+.desc p {     
+    color: white; 
+}
+
+.pokemon {
+    height: 500px;
+}
+
+figure {
+    text-align: center;
+}
