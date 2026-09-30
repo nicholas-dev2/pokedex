@@ -1,19 +1,15 @@
 html {
     scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
 }
 
 body {
     background-color: #0D0D0D;
     margin: 0;
-    padding: 0;
 }
 
 h1 {
     color: white;
     font-size: 100px;
-    margin-left: 10%;
 }
 
 header {
@@ -61,7 +57,7 @@ a {
 } 
 
 main {
-    margin-left: 15%;
+    display: flex;
 }
 
 .desc {     
@@ -70,7 +66,7 @@ main {
     background-color: #5f0e15;     
     padding: 15px;     
     border-radius: 5px;
-    width: 60%; 
+    width: 80%; 
 } 
 
 .desc p {     
@@ -88,24 +84,6 @@ figure {
     text-align: center;
 }
 
-.sidebar {
-    border-right: 2px solid white;
-    box-sizing: border-box;
-    background-color: #5f0e15;
-    width: 15%;
-    text-align: left;
-    height: 100vh;
-    overflow-y: auto;
-    padding: 30px;
-    position: fixed;
-    left: 0;
-    top: 0;
-}
-
-.sidebar p {
-    color: white;
-}
-
 .layout {
     display: flex;
     flex-direction: column;
@@ -113,8 +91,6 @@ figure {
 
 footer {
     background-color: #5f0e15;
-    width: 85%;
-    margin-left: 15%;
     box-sizing: border-box;
     padding: 20px;
 }
